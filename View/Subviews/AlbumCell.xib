@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumCell" id="gTV-IL-0wX" customClass="AlbumCell" customModule="CiklumAlbum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="157" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="157" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WtH-Qh-bbg">
+                        <rect key="frame" x="0.0" y="0.0" width="157" height="157"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WtH-Qh-bbg" secondAttribute="height" multiplier="1:1" id="igm-dW-crC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hox-CJ-NbT">
+                        <rect key="frame" x="0.0" y="165" width="157" height="17"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="hNh-G8-5VL">
+                        <rect key="frame" x="68.5" y="68.5" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="WtH-Qh-bbg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="448-L8-1Ka"/>
+                <constraint firstItem="hNh-G8-5VL" firstAttribute="centerX" secondItem="WtH-Qh-bbg" secondAttribute="centerX" id="4LH-Ze-jCC"/>
+                <constraint firstItem="hox-CJ-NbT" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="SV8-CQ-4zB"/>
+                <constraint firstItem="hNh-G8-5VL" firstAttribute="centerY" secondItem="WtH-Qh-bbg" secondAttribute="centerY" id="SeE-7O-xoa"/>
+                <constraint firstItem="hox-CJ-NbT" firstAttribute="top" secondItem="WtH-Qh-bbg" secondAttribute="bottom" constant="8" id="Tev-bE-Goy"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hox-CJ-NbT" secondAttribute="bottom" id="VH2-32-KUR"/>
+                <constraint firstAttribute="trailing" secondItem="WtH-Qh-bbg" secondAttribute="trailing" id="aZ2-Cr-HrH"/>
+                <constraint firstItem="WtH-Qh-bbg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="do3-RT-4JB"/>
+                <constraint firstItem="hox-CJ-NbT" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="yOi-WT-u4n"/>
+            </constraints>
+            <size key="customSize" width="157" height="190"/>
+            <connections>
+                <outlet property="activityIndicator" destination="hNh-G8-5VL" id="Bjo-GA-9or"/>
+                <outlet property="imageView" destination="WtH-Qh-bbg" id="zIt-cf-JOG"/>
+                <outlet property="title" destination="hox-CJ-NbT" id="XKS-Xt-gzG"/>
+            </connections>
+            <point key="canvasLocation" x="23.913043478260871" y="130.58035714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

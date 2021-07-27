@@ -1,0 +1,6 @@
+framework module Pods_CiklumAlbum_CiklumAlbumUITests {
+  umbrella header "Pods-CiklumAlbum-CiklumAlbumUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

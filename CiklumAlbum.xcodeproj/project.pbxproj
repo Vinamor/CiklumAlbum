@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0AA7FE9D26AD8B4A00CB0625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FE9C26AD8B4A00CB0625 /* AppDelegate.swift */; };
 		0AA7FE9F26AD8B4A00CB0625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FE9E26AD8B4A00CB0625 /* SceneDelegate.swift */; };
-		0AA7FEA126AD8B4A00CB0625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEA026AD8B4A00CB0625 /* ViewController.swift */; };
+		0AA7FEA126AD8B4A00CB0625 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEA026AD8B4A00CB0625 /* AlbumListViewController.swift */; };
 		0AA7FEA426AD8B4A00CB0625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7FEA226AD8B4A00CB0625 /* Main.storyboard */; };
 		0AA7FEA626AD8B4B00CB0625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7FEA526AD8B4B00CB0625 /* Assets.xcassets */; };
 		0AA7FEA926AD8B4B00CB0625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7FEA726AD8B4B00CB0625 /* LaunchScreen.storyboard */; };
 		0AA7FEB426AD8B4B00CB0625 /* CiklumAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEB326AD8B4B00CB0625 /* CiklumAlbumTests.swift */; };
 		0AA7FEBF26AD8B4B00CB0625 /* CiklumAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEBE26AD8B4B00CB0625 /* CiklumAlbumUITests.swift */; };
+		0AA7FECE26AD8C1D00CB0625 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FECD26AD8C1D00CB0625 /* PhotoListViewController.swift */; };
+		0AA7FED026AD8C2F00CB0625 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FECF26AD8C2F00CB0625 /* PhotoDetailViewController.swift */; };
+		0AA7FED326AD8C4F00CB0625 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FED226AD8C4F00CB0625 /* AlbumListViewModel.swift */; };
+		0AA7FED526AD8C5800CB0625 /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FED426AD8C5800CB0625 /* PhotoListViewModel.swift */; };
+		0AA7FED726AD8C6400CB0625 /* PhotoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FED626AD8C6400CB0625 /* PhotoDetailsViewModel.swift */; };
+		0AA7FEDA26AD8D6C00CB0625 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FED926AD8D6C00CB0625 /* NetworkingManager.swift */; };
+		0AA7FEDD26AD8D9B00CB0625 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEDC26AD8D9B00CB0625 /* Album.swift */; };
+		0AA7FEDF26AD8DB200CB0625 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEDE26AD8DB200CB0625 /* Photo.swift */; };
+		0AA7FEE526ADA5E800CB0625 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEE326ADA5E800CB0625 /* PhotoCell.swift */; };
+		0AA7FEE626ADA5E800CB0625 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7FEE426ADA5E800CB0625 /* PhotoCell.xib */; };
+		0AA7FEEB26ADA73700CB0625 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEE926ADA73700CB0625 /* AlbumCell.swift */; };
+		0AA7FEEC26ADA73700CB0625 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7FEEA26ADA73700CB0625 /* AlbumCell.xib */; };
+		0AA7FEEE26ADAE8C00CB0625 /* AlbumCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEED26ADAE8C00CB0625 /* AlbumCellViewModel.swift */; };
+		0AA7FEF026ADAF2200CB0625 /* PhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7FEEF26ADAF2200CB0625 /* PhotoCellViewModel.swift */; };
+		0AC905F726ADD68F003103CE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC905F626ADD68F003103CE /* Extension.swift */; };
+		0AC905FA26AF515C003103CE /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC905F926AF515C003103CE /* PhotoManager.swift */; };
+		29163543CC4028DE02689B18 /* Pods_CiklumAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FCD65D9FD92EF957490591 /* Pods_CiklumAlbum.framework */; };
+		43D69683A249F34B3BA253BC /* Pods_CiklumAlbumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C262C72D843A55454764A1 /* Pods_CiklumAlbumTests.framework */; };
+		FA224C157425BA9B3EE50832 /* Pods_CiklumAlbum_CiklumAlbumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21468A4252EEF848F864DAA /* Pods_CiklumAlbum_CiklumAlbumUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,7 @@
 		0AA7FE9926AD8B4A00CB0625 /* CiklumAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiklumAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA7FE9C26AD8B4A00CB0625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA7FE9E26AD8B4A00CB0625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0AA7FEA026AD8B4A00CB0625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AA7FEA026AD8B4A00CB0625 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
 		0AA7FEA326AD8B4A00CB0625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AA7FEA526AD8B4B00CB0625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA7FEA826AD8B4B00CB0625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,31 @@
 		0AA7FEBA26AD8B4B00CB0625 /* CiklumAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiklumAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA7FEBE26AD8B4B00CB0625 /* CiklumAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiklumAlbumUITests.swift; sourceTree = "<group>"; };
 		0AA7FEC026AD8B4B00CB0625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA7FECD26AD8C1D00CB0625 /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		0AA7FECF26AD8C2F00CB0625 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		0AA7FED226AD8C4F00CB0625 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		0AA7FED426AD8C5800CB0625 /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		0AA7FED626AD8C6400CB0625 /* PhotoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModel.swift; sourceTree = "<group>"; };
+		0AA7FED926AD8D6C00CB0625 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		0AA7FEDC26AD8D9B00CB0625 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		0AA7FEDE26AD8DB200CB0625 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0AA7FEE326ADA5E800CB0625 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0AA7FEE426ADA5E800CB0625 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		0AA7FEE926ADA73700CB0625 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		0AA7FEEA26ADA73700CB0625 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		0AA7FEED26ADAE8C00CB0625 /* AlbumCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellViewModel.swift; sourceTree = "<group>"; };
+		0AA7FEEF26ADAF2200CB0625 /* PhotoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellViewModel.swift; sourceTree = "<group>"; };
+		0AC905F626ADD68F003103CE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0AC905F926AF515C003103CE /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		1B624CAF902C0A551CF78FED /* Pods-CiklumAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbum.release.xcconfig"; path = "Target Support Files/Pods-CiklumAlbum/Pods-CiklumAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		69051815CCE8B519E4C2072C /* Pods-CiklumAlbum-CiklumAlbumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbum-CiklumAlbumUITests.release.xcconfig"; path = "Target Support Files/Pods-CiklumAlbum-CiklumAlbumUITests/Pods-CiklumAlbum-CiklumAlbumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EA00B2E8FF49BCCD4F82FE3 /* Pods-CiklumAlbumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbumTests.release.xcconfig"; path = "Target Support Files/Pods-CiklumAlbumTests/Pods-CiklumAlbumTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8C262C72D843A55454764A1 /* Pods_CiklumAlbumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiklumAlbumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FCD65D9FD92EF957490591 /* Pods_CiklumAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiklumAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0863EF2B7458FD09CDB620F /* Pods-CiklumAlbumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbumTests.debug.xcconfig"; path = "Target Support Files/Pods-CiklumAlbumTests/Pods-CiklumAlbumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C34A88013B7F76008C5B4C /* Pods-CiklumAlbum-CiklumAlbumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbum-CiklumAlbumUITests.debug.xcconfig"; path = "Target Support Files/Pods-CiklumAlbum-CiklumAlbumUITests/Pods-CiklumAlbum-CiklumAlbumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21468A4252EEF848F864DAA /* Pods_CiklumAlbum_CiklumAlbumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiklumAlbum_CiklumAlbumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2736DCA4DB45E1F834F8FC /* Pods-CiklumAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumAlbum.debug.xcconfig"; path = "Target Support Files/Pods-CiklumAlbum/Pods-CiklumAlbum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29163543CC4028DE02689B18 /* Pods_CiklumAlbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D69683A249F34B3BA253BC /* Pods_CiklumAlbumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA224C157425BA9B3EE50832 /* Pods_CiklumAlbum_CiklumAlbumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +127,15 @@
 			isa = PBXGroup;
 			children = (
 				0AA7FE9B26AD8B4A00CB0625 /* CiklumAlbum */,
+				0AA7FED826AD8D2E00CB0625 /* Networking */,
+				0AA7FEDB26AD8D9000CB0625 /* Model */,
+				0AA7FED126AD8C3A00CB0625 /* ViewModel */,
+				0AA7FEE026AD9D4D00CB0625 /* View */,
 				0AA7FEB226AD8B4B00CB0625 /* CiklumAlbumTests */,
 				0AA7FEBD26AD8B4B00CB0625 /* CiklumAlbumUITests */,
 				0AA7FE9A26AD8B4A00CB0625 /* Products */,
+				DE4410E6C94E4D06E746713C /* Pods */,
+				B092A8E38456F2A44A3E12F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +154,7 @@
 			children = (
 				0AA7FE9C26AD8B4A00CB0625 /* AppDelegate.swift */,
 				0AA7FE9E26AD8B4A00CB0625 /* SceneDelegate.swift */,
-				0AA7FEA026AD8B4A00CB0625 /* ViewController.swift */,
-				0AA7FEA226AD8B4A00CB0625 /* Main.storyboard */,
 				0AA7FEA526AD8B4B00CB0625 /* Assets.xcassets */,
-				0AA7FEA726AD8B4B00CB0625 /* LaunchScreen.storyboard */,
 				0AA7FEAA26AD8B4B00CB0625 /* Info.plist */,
 			);
 			path = CiklumAlbum;
@@ -128,6 +178,116 @@
 			path = CiklumAlbumUITests;
 			sourceTree = "<group>";
 		};
+		0AA7FECC26AD8C0500CB0625 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FEA026AD8B4A00CB0625 /* AlbumListViewController.swift */,
+				0AA7FECD26AD8C1D00CB0625 /* PhotoListViewController.swift */,
+				0AA7FECF26AD8C2F00CB0625 /* PhotoDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0AA7FED126AD8C3A00CB0625 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AC905FB26AF81B1003103CE /* CellViewModels */,
+				0AA7FED226AD8C4F00CB0625 /* AlbumListViewModel.swift */,
+				0AA7FED426AD8C5800CB0625 /* PhotoListViewModel.swift */,
+				0AA7FED626AD8C6400CB0625 /* PhotoDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AA7FED826AD8D2E00CB0625 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FED926AD8D6C00CB0625 /* NetworkingManager.swift */,
+				0AC905F926AF515C003103CE /* PhotoManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0AA7FEDB26AD8D9000CB0625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FEDC26AD8D9B00CB0625 /* Album.swift */,
+				0AA7FEDE26AD8DB200CB0625 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7FEE026AD9D4D00CB0625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AC905F826ADE9C3003103CE /* Extensions */,
+				0AA7FEE226ADA5C600CB0625 /* Subviews */,
+				0AA7FECC26AD8C0500CB0625 /* Controllers */,
+				0AA7FEE126AD9D5C00CB0625 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7FEE126AD9D5C00CB0625 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FEA726AD8B4B00CB0625 /* LaunchScreen.storyboard */,
+				0AA7FEA226AD8B4A00CB0625 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0AA7FEE226ADA5C600CB0625 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FEE926ADA73700CB0625 /* AlbumCell.swift */,
+				0AA7FEEA26ADA73700CB0625 /* AlbumCell.xib */,
+				0AA7FEE326ADA5E800CB0625 /* PhotoCell.swift */,
+				0AA7FEE426ADA5E800CB0625 /* PhotoCell.xib */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0AC905F826ADE9C3003103CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AC905F626ADD68F003103CE /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AC905FB26AF81B1003103CE /* CellViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7FEEF26ADAF2200CB0625 /* PhotoCellViewModel.swift */,
+				0AA7FEED26ADAE8C00CB0625 /* AlbumCellViewModel.swift */,
+			);
+			path = CellViewModels;
+			sourceTree = "<group>";
+		};
+		B092A8E38456F2A44A3E12F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCD65D9FD92EF957490591 /* Pods_CiklumAlbum.framework */,
+				E21468A4252EEF848F864DAA /* Pods_CiklumAlbum_CiklumAlbumUITests.framework */,
+				A8C262C72D843A55454764A1 /* Pods_CiklumAlbumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4410E6C94E4D06E746713C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE2736DCA4DB45E1F834F8FC /* Pods-CiklumAlbum.debug.xcconfig */,
+				1B624CAF902C0A551CF78FED /* Pods-CiklumAlbum.release.xcconfig */,
+				D3C34A88013B7F76008C5B4C /* Pods-CiklumAlbum-CiklumAlbumUITests.debug.xcconfig */,
+				69051815CCE8B519E4C2072C /* Pods-CiklumAlbum-CiklumAlbumUITests.release.xcconfig */,
+				C0863EF2B7458FD09CDB620F /* Pods-CiklumAlbumTests.debug.xcconfig */,
+				7EA00B2E8FF49BCCD4F82FE3 /* Pods-CiklumAlbumTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA7FEC326AD8B4B00CB0625 /* Build configuration list for PBXNativeTarget "CiklumAlbum" */;
 			buildPhases = (
+				4B9D58202FBA0F802573A032 /* [CP] Check Pods Manifest.lock */,
 				0AA7FE9526AD8B4A00CB0625 /* Sources */,
 				0AA7FE9626AD8B4A00CB0625 /* Frameworks */,
 				0AA7FE9726AD8B4A00CB0625 /* Resources */,
+				0C1D53DDA8BFEC501E9861A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA7FEC626AD8B4B00CB0625 /* Build configuration list for PBXNativeTarget "CiklumAlbumTests" */;
 			buildPhases = (
+				D9BC2FFEA4DCFE8126E46B99 /* [CP] Check Pods Manifest.lock */,
 				0AA7FEAB26AD8B4B00CB0625 /* Sources */,
 				0AA7FEAC26AD8B4B00CB0625 /* Frameworks */,
 				0AA7FEAD26AD8B4B00CB0625 /* Resources */,
@@ -170,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA7FEC926AD8B4B00CB0625 /* Build configuration list for PBXNativeTarget "CiklumAlbumUITests" */;
 			buildPhases = (
+				B7BC92E104E0DD9934CAAAA7 /* [CP] Check Pods Manifest.lock */,
 				0AA7FEB626AD8B4B00CB0625 /* Sources */,
 				0AA7FEB726AD8B4B00CB0625 /* Frameworks */,
 				0AA7FEB826AD8B4B00CB0625 /* Resources */,
+				1B91887E571759FF9C5A40F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA7FEE626ADA5E800CB0625 /* PhotoCell.xib in Resources */,
 				0AA7FEA926AD8B4B00CB0625 /* LaunchScreen.storyboard in Resources */,
+				0AA7FEEC26ADA73700CB0625 /* AlbumCell.xib in Resources */,
 				0AA7FEA626AD8B4B00CB0625 /* Assets.xcassets in Resources */,
 				0AA7FEA426AD8B4A00CB0625 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +420,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C1D53DDA8BFEC501E9861A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum/Pods-CiklumAlbum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum/Pods-CiklumAlbum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum/Pods-CiklumAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B91887E571759FF9C5A40F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum-CiklumAlbumUITests/Pods-CiklumAlbum-CiklumAlbumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum-CiklumAlbumUITests/Pods-CiklumAlbum-CiklumAlbumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CiklumAlbum-CiklumAlbumUITests/Pods-CiklumAlbum-CiklumAlbumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B9D58202FBA0F802573A032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumAlbum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BC92E104E0DD9934CAAAA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumAlbum-CiklumAlbumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BC2FFEA4DCFE8126E46B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumAlbumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AA7FE9526AD8B4A00CB0625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA7FEA126AD8B4A00CB0625 /* ViewController.swift in Sources */,
+				0AA7FEEE26ADAE8C00CB0625 /* AlbumCellViewModel.swift in Sources */,
+				0AC905FA26AF515C003103CE /* PhotoManager.swift in Sources */,
+				0AA7FEA126AD8B4A00CB0625 /* AlbumListViewController.swift in Sources */,
+				0AA7FEEB26ADA73700CB0625 /* AlbumCell.swift in Sources */,
+				0AA7FECE26AD8C1D00CB0625 /* PhotoListViewController.swift in Sources */,
+				0AA7FED726AD8C6400CB0625 /* PhotoDetailsViewModel.swift in Sources */,
+				0AA7FED326AD8C4F00CB0625 /* AlbumListViewModel.swift in Sources */,
+				0AA7FEE526ADA5E800CB0625 /* PhotoCell.swift in Sources */,
+				0AC905F726ADD68F003103CE /* Extension.swift in Sources */,
 				0AA7FE9D26AD8B4A00CB0625 /* AppDelegate.swift in Sources */,
+				0AA7FED026AD8C2F00CB0625 /* PhotoDetailViewController.swift in Sources */,
+				0AA7FEDA26AD8D6C00CB0625 /* NetworkingManager.swift in Sources */,
+				0AA7FEDF26AD8DB200CB0625 /* Photo.swift in Sources */,
 				0AA7FE9F26AD8B4A00CB0625 /* SceneDelegate.swift in Sources */,
+				0AA7FEF026ADAF2200CB0625 /* PhotoCellViewModel.swift in Sources */,
+				0AA7FED526AD8C5800CB0625 /* PhotoListViewModel.swift in Sources */,
+				0AA7FEDD26AD8D9B00CB0625 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +717,13 @@
 		};
 		0AA7FEC426AD8B4B00CB0625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2736DCA4DB45E1F834F8FC /* Pods-CiklumAlbum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJT5WLBV5R;
 				INFOPLIST_FILE = CiklumAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +731,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ostap.romaniv.CiklumAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,10 +739,13 @@
 		};
 		0AA7FEC526AD8B4B00CB0625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B624CAF902C0A551CF78FED /* Pods-CiklumAlbum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJT5WLBV5R;
 				INFOPLIST_FILE = CiklumAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +753,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ostap.romaniv.CiklumAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +761,7 @@
 		};
 		0AA7FEC726AD8B4B00CB0625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0863EF2B7458FD09CDB620F /* Pods-CiklumAlbumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +783,7 @@
 		};
 		0AA7FEC826AD8B4B00CB0625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA00B2E8FF49BCCD4F82FE3 /* Pods-CiklumAlbumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +805,7 @@
 		};
 		0AA7FECA26AD8B4B00CB0625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C34A88013B7F76008C5B4C /* Pods-CiklumAlbum-CiklumAlbumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +825,7 @@
 		};
 		0AA7FECB26AD8B4B00CB0625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69051815CCE8B519E4C2072C /* Pods-CiklumAlbum-CiklumAlbumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
